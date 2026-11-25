@@ -882,10 +882,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, DSQueryable {
             DefaultsOverride.standardOverride.register(defaults: defaultsDict as! [String : Any])
         }
 
-        VersionCheck.shared.reportLicenseUsage(event: .checkin) { isSuccess in
-            print(isSuccess)
-        }
-
         let infoPlist = Bundle.main.infoDictionary
 
         if let infoPlist = infoPlist, let build = infoPlist["CFBundleVersion"] {
@@ -911,27 +907,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, DSQueryable {
                 }
             }
         }
-        if UserDefaults.standard.bool(forKey: "checkForUpdates")==true{
-            checkForUpdates()
-        }
         mainController = MainController()
         mainController?.setup()
 
-    }
-    func checkForUpdates() {
-        let thisAppVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
-        let thisAppBundleID = Bundle.main.bundleIdentifier
-
-        if let thisAppVersion = thisAppVersion, let thisAppBundleID = thisAppBundleID,
-           let thisAppVersionFloat = Float(thisAppVersion){
-
-            VersionCheck.shared.versionForIdentifier(identifier: thisAppBundleID, version: thisAppVersion) { isSuccess, version in
-
-                if let versionFloat = Float(version),!thisAppVersion.isEmpty, !version.isEmpty, thisAppVersionFloat < versionFloat {
-                    TCSLogErrorWithMark("New version available: \(thisAppVersion) < \(version)")
-                }
-            }
-        }
     }
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application

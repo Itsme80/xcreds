@@ -303,12 +303,6 @@
 		76EAAFDB2CEFED3800A5FEE3 /* UserSecretManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EAAFD92CEFED3800A5FEE3 /* UserSecretManager.swift */; };
 		76EAAFDC2CEFED3800A5FEE3 /* SecretKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EAAFD82CEFED3800A5FEE3 /* SecretKeeper.swift */; };
 		76EAAFDD2CEFED3800A5FEE3 /* UserSecretManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EAAFD92CEFED3800A5FEE3 /* UserSecretManager.swift */; };
-		76EB23E02CC898D7003F82CB /* ProductLicense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766CC42229D3A321009BC526 /* ProductLicense.framework */; };
-		76EB23E12CC898D7003F82CB /* ProductLicense.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 766CC42229D3A321009BC526 /* ProductLicense.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		76EB23E22CC8A232003F82CB /* ProductLicense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766CC42229D3A321009BC526 /* ProductLicense.framework */; };
-		76EB23E32CC8A232003F82CB /* ProductLicense.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 766CC42229D3A321009BC526 /* ProductLicense.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		76EB23E42CC8A3CB003F82CB /* ProductLicense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766CC42229D3A321009BC526 /* ProductLicense.framework */; };
-		76EB23E52CC8A3CB003F82CB /* ProductLicense.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 766CC42229D3A321009BC526 /* ProductLicense.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		76EE069E27FD1D00009E0F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE069D27FD1D00009E0F3A /* AppDelegate.swift */; };
 		76EE06A027FD1D01009E0F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EE069F27FD1D01009E0F3A /* Assets.xcassets */; };
 		76EE06A327FD1D01009E0F3A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76EE06A127FD1D01009E0F3A /* MainMenu.xib */; };
@@ -415,39 +409,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		766CC42C29D3A3DC009BC526 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				76EB23E12CC898D7003F82CB /* ProductLicense.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		766CC43129D3A3EC009BC526 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				76EB23E52CC8A3CB003F82CB /* ProductLicense.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		766CC43629D3A3F8009BC526 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				76EB23E32CC8A232003F82CB /* ProductLicense.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		76786F512A27C36A00AA8DB9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -519,7 +480,7 @@
 		761B486B28A3575000C6A02B /* XCredsLoginDone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCredsLoginDone.swift; sourceTree = "<group>"; };
 		7631935D287D22C700D36BF7 /* authrights */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = authrights; sourceTree = BUILT_PRODUCTS_DIR; };
 		7631935F287D22C700D36BF7 /* authrights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authrights.swift; sourceTree = "<group>"; };
-		7632909B2876673500CF8857 /* DataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		7632909B2876673500CF8857 /* DataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataExtension.swift"; sourceTree = SOURCE_ROOT; };
 		7632E39E287347C100E37923 /* XCredsKeychainAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCredsKeychainAdd.swift; sourceTree = "<group>"; };
 		7632E3A02873497C00E37923 /* LogShim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LogShim.swift; path = Mechanisms/LogShim.swift; sourceTree = "<group>"; };
 		76342E592B282653007D4F29 /* DesktopLoginWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopLoginWindowController.swift; sourceTree = "<group>"; };
@@ -553,7 +514,7 @@
 		7657DED22B350644003A23DB /* GSSItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSSItem.h; sourceTree = "<group>"; };
 		7657DED32B35064E003A23DB /* krb5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krb5.h; sourceTree = "<group>"; };
 		7657DED52B351A67003A23DB /* KerbUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KerbUtil.h; sourceTree = "<group>"; };
-		7657DED82B351B5B003A23DB /* UNIXUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UNIXUtilities.swift; sourceTree = "<group>"; };
+		7657DED82B351B5B003A23DB /* UNIXUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNIXUtilities.swift"; sourceTree = SOURCE_ROOT; };
 		766184B72DCE5DB5009D5A8C /* colorline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorline.png; sourceTree = "<group>"; };
 		76634F362D05FFA3000A63E8 /* LogOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOnly.swift; sourceTree = "<group>"; };
 		766355BD2870CA6A002E3867 /* XCredsLoginPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCredsLoginPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -565,35 +526,33 @@
 		766355E4287148C1002E3867 /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tokens.swift; path = Shared/Tokens.swift; sourceTree = SOURCE_ROOT; };
 		76673CD429D3D5F500452848 /* LicenseChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseChecker.swift; sourceTree = "<group>"; };
 		766C602C2D3F409D0033E274 /* XCredsAudit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XCredsAudit.swift; path = ../Shared/XCredsAudit.swift; sourceTree = "<group>"; };
-		766CC42129D3A320009BC526 /* Paddle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Paddle.framework; path = Carthage/Build/Mac/Paddle.framework; sourceTree = "<group>"; };
-		766CC42229D3A321009BC526 /* ProductLicense.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProductLicense.framework; path = Carthage/Build/Mac/ProductLicense.framework; sourceTree = "<group>"; };
 		766CC43729D3AED2009BC526 /* errorpage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = errorpage.html; sourceTree = "<group>"; };
-		766D66612E961F8F009CE2BF /* CCIDCardReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCIDCardReader.swift; sourceTree = "<group>"; };
-		766D66622E961F8F009CE2BF /* LoggerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerHelper.swift; sourceTree = "<group>"; };
-		766D66632E961F8F009CE2BF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		766D66642E961F8F009CE2BF /* NSAlert+showAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAlert+showAlert.swift"; sourceTree = "<group>"; };
-		766D66652E961F8F009CE2BF /* NSBundle+FindBundlePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSBundle+FindBundlePath.swift"; sourceTree = "<group>"; };
-		766D66662E961F8F009CE2BF /* NSButton+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSButton+Color.swift"; sourceTree = "<group>"; };
-		766D66672E961F8F009CE2BF /* NSData+HexString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+HexString.h"; sourceTree = "<group>"; };
-		766D66682E961F8F009CE2BF /* NSData+HexString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+HexString.m"; sourceTree = "<group>"; };
-		766D66692E961F8F009CE2BF /* NSData+SHA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+SHA1.h"; sourceTree = "<group>"; };
-		766D666A2E961F8F009CE2BF /* NSData+SHA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+SHA1.m"; sourceTree = "<group>"; };
-		766D666B2E961F8F009CE2BF /* NSFileManager+TCSRealHomeFolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+TCSRealHomeFolder.h"; sourceTree = "<group>"; };
-		766D666C2E961F8F009CE2BF /* NSFileManager+TCSRealHomeFolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+TCSRealHomeFolder.m"; sourceTree = "<group>"; };
-		766D666D2E961F8F009CE2BF /* NSImage+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+String.swift"; sourceTree = "<group>"; };
-		766D666F2E961F8F009CE2BF /* String+Base64URLEncoded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Base64URLEncoded.swift"; sourceTree = "<group>"; };
-		766D66702E961F8F009CE2BF /* TCSKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCSKeychain.h; sourceTree = "<group>"; };
-		766D66712E961F8F009CE2BF /* TCSKeychain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCSKeychain.m; sourceTree = "<group>"; };
-		766D66722E961F8F009CE2BF /* TCSUnifiedLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCSUnifiedLogger.h; sourceTree = "<group>"; };
-		766D66732E961F8F009CE2BF /* TCSUnifiedLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCSUnifiedLogger.m; sourceTree = "<group>"; };
-		766D66742E961F8F009CE2BF /* TCTaskHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCTaskHelper.h; sourceTree = "<group>"; };
-		766D66752E961F8F009CE2BF /* TCTaskHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCTaskHelper.m; sourceTree = "<group>"; };
-		766D66762E961F8F009CE2BF /* TCTaskWrapperWithBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCTaskWrapperWithBlocks.h; sourceTree = "<group>"; };
-		766D66772E961F8F009CE2BF /* TCTaskWrapperWithBlocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCTaskWrapperWithBlocks.m; sourceTree = "<group>"; };
-		766D66862E96209F009CE2BF /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
-		766D66AF2E962231009CE2BF /* NSError+EasyError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+EasyError.h"; sourceTree = "<group>"; };
-		766D66B02E962231009CE2BF /* NSError+EasyError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+EasyError.m"; sourceTree = "<group>"; };
-		766D67772E96249A009CE2BF /* UsernamePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernamePassword.swift; sourceTree = "<group>"; };
+		766D66612E961F8F009CE2BF /* CCIDCardReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CCIDCardReader.swift"; sourceTree = SOURCE_ROOT; };
+		766D66622E961F8F009CE2BF /* LoggerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCreds/LoggerHelper.swift"; sourceTree = SOURCE_ROOT; };
+		766D66632E961F8F009CE2BF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCredsLoginPlugIn/NetworkManager.swift"; sourceTree = SOURCE_ROOT; };
+		766D66642E961F8F009CE2BF /* NSAlert+showAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAlert+showAlert.swift"; sourceTree = SOURCE_ROOT; };
+		766D66652E961F8F009CE2BF /* NSBundle+FindBundlePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSBundle+FindBundlePath.swift"; sourceTree = SOURCE_ROOT; };
+		766D66662E961F8F009CE2BF /* NSButton+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCredsLoginPlugIn/NSButton+Color.swift"; sourceTree = SOURCE_ROOT; };
+		766D66672E961F8F009CE2BF /* NSData+HexString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCredsLoginPlugIn/NSData+HexString.h"; sourceTree = SOURCE_ROOT; };
+		766D66682E961F8F009CE2BF /* NSData+HexString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCredsLoginPlugIn/NSData+HexString.m"; sourceTree = SOURCE_ROOT; };
+		766D66692E961F8F009CE2BF /* NSData+SHA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCredsLoginPlugIn/NSData+SHA1.h"; sourceTree = SOURCE_ROOT; };
+		766D666A2E961F8F009CE2BF /* NSData+SHA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCredsLoginPlugIn/NSData+SHA1.m"; sourceTree = SOURCE_ROOT; };
+		766D666B2E961F8F009CE2BF /* NSFileManager+TCSRealHomeFolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCreds/NSFileManager+TCSRealHomeFolder.h"; sourceTree = SOURCE_ROOT; };
+		766D666C2E961F8F009CE2BF /* NSFileManager+TCSRealHomeFolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCreds/NSFileManager+TCSRealHomeFolder.m"; sourceTree = SOURCE_ROOT; };
+		766D666D2E961F8F009CE2BF /* NSImage+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+String.swift"; sourceTree = SOURCE_ROOT; };
+		766D666F2E961F8F009CE2BF /* String+Base64URLEncoded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCredsLoginPlugIn/String+Base64URLEncoded.swift"; sourceTree = SOURCE_ROOT; };
+		766D66702E961F8F009CE2BF /* TCSKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCredsLoginPlugIn/TCSKeychain.h"; sourceTree = SOURCE_ROOT; };
+		766D66712E961F8F009CE2BF /* TCSKeychain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCredsLoginPlugIn/TCSKeychain.m"; sourceTree = SOURCE_ROOT; };
+		766D66722E961F8F009CE2BF /* TCSUnifiedLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCreds/TCSUnifiedLogger.h"; sourceTree = SOURCE_ROOT; };
+		766D66732E961F8F009CE2BF /* TCSUnifiedLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCreds/TCSUnifiedLogger.m"; sourceTree = SOURCE_ROOT; };
+		766D66742E961F8F009CE2BF /* TCTaskHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCTaskHelper.h"; sourceTree = SOURCE_ROOT; };
+		766D66752E961F8F009CE2BF /* TCTaskHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TCTaskHelper.m"; sourceTree = SOURCE_ROOT; };
+		766D66762E961F8F009CE2BF /* TCTaskWrapperWithBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCTaskWrapperWithBlocks.h"; sourceTree = SOURCE_ROOT; };
+		766D66772E961F8F009CE2BF /* TCTaskWrapperWithBlocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TCTaskWrapperWithBlocks.m"; sourceTree = SOURCE_ROOT; };
+		766D66862E96209F009CE2BF /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCredsLoginPlugIn/LoginWindow/NetworkMonitor.swift"; sourceTree = SOURCE_ROOT; };
+		766D66AF2E962231009CE2BF /* NSError+EasyError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+EasyError.h"; sourceTree = SOURCE_ROOT; };
+		766D66B02E962231009CE2BF /* NSError+EasyError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+EasyError.m"; sourceTree = SOURCE_ROOT; };
+		766D67772E96249A009CE2BF /* UsernamePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCreds/UsernamePassword.swift"; sourceTree = SOURCE_ROOT; };
 		766F1E552D495BBF00AA5637 /* com.twocanoes.xcreds.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = com.twocanoes.xcreds.json; path = "../Profile Manifest/jamf/com.twocanoes.xcreds.json"; sourceTree = "<group>"; };
 		766F4C4A2883AFD90021F548 /* pleaseWaitGraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pleaseWaitGraphic.png; sourceTree = "<group>"; };
 		766FD60C2A1B06AC00C8F244 /* DefaultsOverride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsOverride.swift; sourceTree = "<group>"; };
@@ -630,8 +589,8 @@
 		76A2475B2C22747400859E0A /* TokenSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenSession.swift; sourceTree = "<group>"; };
 		76A2475D2C22747400859E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76A2475E2C22747400859E0A /* tap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tap.entitlements; sourceTree = "<group>"; };
-		76A35FD12EAC0DC400099940 /* FDESetupHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDESetupHelper.swift; sourceTree = "<group>"; };
-		76B040A328EFC788002A289B /* Helper+JWTDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper+JWTDecode.swift"; sourceTree = "<group>"; };
+		76A35FD12EAC0DC400099940 /* FDESetupHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FDESetupHelper.swift"; sourceTree = SOURCE_ROOT; };
+		76B040A328EFC788002A289B /* Helper+JWTDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCreds/Helper+JWTDecode.swift"; sourceTree = SOURCE_ROOT; };
 		76BE1DA02ED526AC001A4BE8 /* GoogleLDAP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLDAP.swift; sourceTree = "<group>"; };
 		76BEF7DB2871F5F00013E2A1 /* TCSReturnWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSReturnWindow.m; sourceTree = "<group>"; };
 		76BEF7DC2871F5F00013E2A1 /* TCSReturnWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSReturnWindow.h; sourceTree = "<group>"; };
@@ -657,7 +616,7 @@
 		76C661D72D3974910005F2CD /* PinPromptWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinPromptWindowController.xib; sourceTree = "<group>"; };
 		76C840862D03BFF400E41802 /* PinSetWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinSetWindowController.swift; sourceTree = "<group>"; };
 		76C840872D03BFF400E41802 /* PinSetWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinSetWindowController.xib; sourceTree = "<group>"; };
-		76CB9076287FBEEA00C70D0C /* Helper+URLDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper+URLDecode.swift"; sourceTree = "<group>"; };
+		76CB9076287FBEEA00C70D0C /* Helper+URLDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper+URLDecode.swift"; sourceTree = SOURCE_ROOT; };
 		76CB907C288112AF00C70D0C /* xcreds_login.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = xcreds_login.sh; sourceTree = "<group>"; };
 		76CCF5422B12E478003F85E9 /* SelectLocalAccountWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLocalAccountWindowController.swift; sourceTree = "<group>"; };
 		76CCF5432B12E478003F85E9 /* SelectLocalAccountWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectLocalAccountWindowController.xib; sourceTree = "<group>"; };
@@ -679,8 +638,8 @@
 		76E9CE6E2A0DC6E30060220C /* TCSLoginWindowUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCSLoginWindowUtilities.h; sourceTree = "<group>"; };
 		76E9CE6F2A0DC6E30060220C /* TCSLoginWindowUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCSLoginWindowUtilities.m; sourceTree = "<group>"; };
 		76EAAFD62CEFE22000A5FEE3 /* XCredsUserSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCredsUserSetup.swift; sourceTree = "<group>"; };
-		76EAAFD82CEFED3800A5FEE3 /* SecretKeeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKeeper.swift; sourceTree = "<group>"; };
-		76EAAFD92CEFED3800A5FEE3 /* UserSecretManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSecretManager.swift; sourceTree = "<group>"; };
+		76EAAFD82CEFED3800A5FEE3 /* SecretKeeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SecretKeeper.swift"; sourceTree = SOURCE_ROOT; };
+		76EAAFD92CEFED3800A5FEE3 /* UserSecretManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserSecretManager.swift"; sourceTree = SOURCE_ROOT; };
 		76EE069A27FD1D00009E0F3A /* XCreds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCreds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76EE069D27FD1D00009E0F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76EE069F27FD1D01009E0F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -744,7 +703,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76EB23E42CC8A3CB003F82CB /* ProductLicense.framework in Frameworks */,
 				76C4BAB62B353AF7007B2C57 /* Kerberos.framework in Frameworks */,
 				76C4BAB42B353ADD007B2C57 /* libresolv.tbd in Frameworks */,
 				766355CE2870E9D3002E3867 /* OIDCLite in Frameworks */,
@@ -770,7 +728,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76EB23E22CC8A232003F82CB /* ProductLicense.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -783,7 +740,6 @@
 				762177E62B7144460051B756 /* OIDCLite in Frameworks */,
 				76C4BAB32B353AD7007B2C57 /* libresolv.tbd in Frameworks */,
 				763DDF1A2B4F1DD4000D48CC /* GSS.framework in Frameworks */,
-				76EB23E02CC898D7003F82CB /* ProductLicense.framework in Frameworks */,
 				767CB2D02B13B92B006CA2AC /* OpenDirectory.framework in Frameworks */,
 				76319369287D24F600D36BF7 /* ArgumentParser in Frameworks */,
 				76319366287D24E100D36BF7 /* ArgumentParser in Frameworks */,
@@ -909,7 +865,6 @@
 				766D66772E961F8F009CE2BF /* TCTaskWrapperWithBlocks.m */,
 			);
 			name = tools;
-			path = tcsopensourcetools/TCSOpenSourceTools/tools;
 			sourceTree = "<group>";
 		};
 		76786F542A27C36A00AA8DB9 /* auth_mech_fixup */ = {
@@ -1040,8 +995,6 @@
 				767CB2CF2B13B92B006CA2AC /* OpenDirectory.framework */,
 				767CB2CE2B13B913006CA2AC /* libsystem_info.tbd */,
 				767CB2CC2B13B8EB006CA2AC /* libinfo.tbd */,
-				766CC42129D3A320009BC526 /* Paddle.framework */,
-				766CC42229D3A321009BC526 /* ProductLicense.framework */,
 				760291CB2C1166870075FBD8 /* AuthenticationServices.framework */,
 				76A247542C22747400859E0A /* CryptoTokenKit.framework */,
 			);
@@ -1245,7 +1198,6 @@
 				766355B92870CA6A002E3867 /* Sources */,
 				766355BA2870CA6A002E3867 /* Frameworks */,
 				766355BB2870CA6A002E3867 /* Resources */,
-				766CC43129D3A3EC009BC526 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1300,7 +1252,6 @@
 				76DC0A6128836EB1007C42B2 /* Sources */,
 				76DC0A6228836EB1007C42B2 /* Frameworks */,
 				76DC0A6328836EB1007C42B2 /* Resources */,
-				766CC43629D3A3F8009BC526 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1318,7 +1269,6 @@
 				76EE069627FD1D00009E0F3A /* Sources */,
 				76EE069727FD1D00009E0F3A /* Frameworks */,
 				76EE069827FD1D00009E0F3A /* Resources */,
-				766CC42C29D3A3DC009BC526 /* Embed Frameworks */,
 				76A247622C22747400859E0A /* Embed Foundation Extensions */,
 				767916FD2E994E8C00D99062 /* Embed Helper Tools */,
 				767916FF2E994EC300D99062 /* Copy LaunchDaemons Property Lists */,
@@ -2049,7 +1999,6 @@
 				CURRENT_PROJECT_VERSION = 9059;
 				DEVELOPMENT_TEAM = UXP6YEHSPW;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Carthage/Build/Mac\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -2066,7 +2015,6 @@
 				CURRENT_PROJECT_VERSION = 9059;
 				DEVELOPMENT_TEAM = UXP6YEHSPW;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Carthage/Build/Mac\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -2135,8 +2083,6 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UXP6YEHSPW;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/Carthage/Build/Mac\"",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = headers;
@@ -2173,8 +2119,6 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UXP6YEHSPW;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/Carthage/Build/Mac\"",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = headers;
@@ -2306,8 +2250,6 @@
 				DEVELOPMENT_TEAM = UXP6YEHSPW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/Carthage/Build/Mac\"",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "XCreds-Login-Overlay-Info.plist";
@@ -2341,8 +2283,6 @@
 				DEVELOPMENT_TEAM = UXP6YEHSPW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/Carthage/Build/Mac\"",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "XCreds-Login-Overlay-Info.plist";
@@ -2502,8 +2442,6 @@
 				DEVELOPMENT_TEAM = UXP6YEHSPW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/Carthage/Build/Mac\"",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
@@ -2545,8 +2483,6 @@
 				DEVELOPMENT_TEAM = UXP6YEHSPW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/Carthage/Build/Mac\"",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
